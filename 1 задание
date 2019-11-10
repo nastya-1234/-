@@ -5,10 +5,10 @@ Low = 'qwertyuiopasdfghjklzxcvbnm'
 Num = '1234567890'
 Spe = '!@#$%^&*()'
  
-BI = False  # Пароль должен содержать символы в верхнем регистре (True - да | False - нет)
-LO = True  # Пароль должен содержать символы в нижнем регистре (True - да | False - нет)
-NU = True  # Пароль должен содержать цифры (True - да | False - нет)
-PS = True  # Пароль должен содержать спец символы (True - да | False - нет)
+BI = False  
+LO = True  
+NU = True  
+PS = True  
  
 Password_len = input('Длина пароля: ')
  
