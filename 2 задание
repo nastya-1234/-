@@ -1,0 +1,9 @@
+a = np.eye(3,4, k =1)
+b = np.eye(3,4, k =0)
+print(a+ 2 *b)
+
+w = mat.reshape(12,1)
+print(w)
+
+sbux = np.loadtxt("C:/Users/ASUS/Desktop/boston_houses.csv", skiprows=1, delimiter=",")
+print(sbux.mean(axis=0))
